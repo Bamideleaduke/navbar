@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 50rem;
+    border: 2px solid yellow;
+    background-color: wheat;
+    /* height: 5rem; */
+    
+    
+}
+
+/* .d-block{
+height: 10rem;
+} */
+nav{
+    border: 3px solid red;
+    background-color: rgba(14, 8, 8, 0.938);
+    width: 10rem;
+    height: 50%;
+      position: fixed;  
+     height: 100vh;
+
+    /* margin: 0 auto; */
+    
+}
+p{
+    width: 60rem;
+    margin: 0 auto;
+}
+section{
+    border: 2px solid red;
+    width: 50rem;
+   
+    
+}
+ul{
+    border: 3px dashed green;
+
+    
+}
+li{
+    border: 2px dotted yellow;
+    width: 5rem;
+    list-style-type: none;
+    background-color: orange;
+   text-align: center;
+    margin-bottom: 0.2rem;
+    
+    
+   
+}
+nav a{
+    border: 3px solid black;
+    text-decoration: none;
+color: white;
+background-color: tomato;
+display: block;
+text-align: center;
+padding: 0.2rem;
+}
+nav a:hover{
+    color: white;
+    background-color: red;
+}

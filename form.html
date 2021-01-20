@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+           <li><a href="#"><img src="images/logo.png" alt="logo"></a></li>
+             <li> <a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+             <li><a href="#">About</a></li> 
+              <li><a href="#">Services</a></li>
+            </ul>
+            
+        </nav>
+
+        <div class="profile_picture">
+            <img src="images/slideC.jpg" class="profile" alt="">
+            <h2 class="profile" >Ocsar Lander</h2>
+        </div>
+    </header>
+
+
+<div class="about_">
+
+    <div class="about_section">
+    <ul >
+        <li><a href=""> Name</a></li>
+        <li> Education</li>
+        <li><a href=""> Experience</a></li>
+        <li>Work</li>
+    </ul>
+</div>
+ <div class="about_section">
+
+    <div class="aboutheader">
+           
+        <div class="about">
+        <h2>Name</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+         </div>
+
+      <div class="about">
+    <h2>Education</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa possimus facere autem officia placeat ex, fugiat iusto illo 
+        
+    </p>
+        </div>
+
+        <div class="about">
+    <h2>Experience</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maxime eaque, veritatis iste numquam reiciendis voluptatem necessitatibus. Officia quos, dignissimos rerum, cum hic temporibus, nihil maiores impedit illo est incidunt.</p>
+        </div>
+
+        <div class="about">
+    <h2>Work</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, molestias. Molestias omnis quo fugit enim debitis qui recusandae beatae sequi, et corrupti soluta expedita repellat perspiciatis? Expedita veniam nisi debitis.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iure suscipit possimus nostrum libero nam, nesciunt, non voluptatibus excepturi sit debitis, perspiciatis amet voluptatum tempora incidunt facere molestias similique minima.</p>
+         </div>
+    </div>  
+
+    <div class="aboutheader">
+            <div class="about">
+        <h2>Name</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            </div>
+    
+             <div class="about">
+        <h2>Education</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa possimus facere autem officia placeat ex, fugiat iusto illo 
+            
+        </p>
+            </div>
+    
+             <div class="about">
+        <h2>Experience</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maxime eaque, veritatis iste numquam reiciendis voluptatem necessitatibus. Officia quos, dignissimos rerum, cum hic temporibus, nihil maiores impedit illo est incidunt.</p>
+             </div>
+    
+              <div class="about">
+        <h2>Work</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, molestias. Molestias omnis quo fugit enim debitis qui recusandae beatae sequi, et corrupti soluta expedita repellat perspiciatis? Expedita veniam nisi debitis.lo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit iure suscipit possimus nostrum libero nam, nesciunt, non voluptatibus excepturi sit debitis, perspiciatis amet voluptatum tempora incidunt facere molestias similique minima.</p>
+             </div>
+    </div>     
+</div>  
+
+</div>
+
+
+
+    <div class="wrapper">
+        <section >
+    
+            <h1>Alien Abduction Order Form</h1>
+            <p style="font-size: 11px;">fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+    
+   <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST" >
+<input type="hidden" name="send_to" value="bamideleaduke@gmail.com">
+        <fieldset>
+            <legend>Your Contact information</legend> 
+
+
+       <p> <label for="name">Your name <input type="text" placeholder="jen"></label>
+       </p>
+
+
+    <p><label for="phone" >Phone number     <input type="number" placeholder="dont forget your phone number"></label></p>
+
+
+    <p><label for="email">Email  <input type="email" placeholder="@gmail.com"></label>
+    </p>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>About your abduction</legend> 
+        
+            <p><label for="date">Requested Date <input type="date" placeholder="jen"></label>
+            </p>
+
+
+   <p> 
+       <label for="abduction">How many alien would you like to abduct <input type="number" min="1" max="4" ></label></p>
+    
+    <p>What type of UFO do you prefer
+    <ul>
+        <li> <input type="radio" name="type" value="Classic Oval UFOs"> Classic Oval UFOs
+        </li>
+
+        <li><input type="radio"  name="type" value="Star Wars-style imperial cruiser">
+           Star Wars-style imperial cruiser
+        </li>
+
+        <li><input type="radio"  name="type" value="Battle Star">
+            Battle Star
+         </li>
+
+         <li><input type="radio"  name="type" value="bong star cube">
+            Bong Star cube
+         </li>
+    </ul>
+    </p>
+
+    <p>What type of abduction experience do you want 
+        <select name="experience" id="">
+            <option  >select one...</option>
+            <option value="">Superb</option>
+            <option value="">Very Good</option>
+            <option value="">Good</option>
+            <option value="">Neutal</option>
+            <option value="">Bad</option>
+        </select>
+    </p>
+        
+    </p>
+  
+
+<p>Special request 
+    <textarea name="" id="" cols="15" rows="3">enter your ideas here</textarea>
+</p>
+
+<p><input type="checkbox" checked> Add me to your email list!</p>
+        
+        </fieldset>
+
+        
+        <button type="submit">order for your alien adoption experience</button>
+    </form>
+</section>
+    <section >
+        <aside>
+            <h3>Our Location</h3>
+            <address>Frontend Masters; Via App / Web ; submisson to github or share with code pen</address>
+        </aside>
+    </section>
+</div>
+
+<!-- <div class="image"></div>
+<img src="slide-A.jpg" alt="slideA"> -->
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="js/fprms.js"></script>
+</body>
+</html>
